@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Panda Animation</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+
+    
+</head>
+<body>
+
+    <div class="navBar">
+        <button class="openMenu" id="openMenu"><i class="fa fa-bars" aria-hidden="true" style="font-size: 40px;"></i></button>
+
+        <div style="display: flex;align-items: center;">
+
+            <img src="istockphoto-1196785607-612x612-removebg-preview.png" alt="Panda Logo" style="width: 90px;height: 90px;">
+            <h1 style="color: rgb(68, 235, 68);">Panda Animation</h1>
+        </div>
+
+
+        <div style="display: flex;align-items: center;">
+           <button id="search"><i class="fa fa-search" aria-hidden="true" style="font-size: 30px;"></i></button> 
+           <input type="text" class="input" id="input" placeholder="Enter the anime title">   
+        </div>
+        
+        
+    </div>
+    
+        <div class="sideMenu" id="sideMenu">
+    
+            <button class="closeMenu" id="closeMenu">< Close Menu</button>
+            
+            <div class="underlineButtons" id="backHome">
+                <button class="buttonMenu" >Home</button>
+            </div>
+    
+            <div class="underlineButtons">
+                 <a href="login.html"><button class="buttonMenu">Login</button></a>     
+            </div>
+    
+            <div class="underlineButtons">
+                <button class="buttonMenu">Subbed Anime</button>
+            </div>
+    
+            <div class="underlineButtons">
+                <button class="buttonMenu">Dubbed Anime</button>
+            </div>
+    
+            <div class="underlineButtons">
+                <button class="buttonMenu">Movie</button>
+            </div>
+            
+            <div class="underlineButtons">
+                <button class="buttonMenu">TV Series</button>
+            </div> 
+    
+            <div class="underlineButtons">
+                <button class="buttonMenu">OVA's</button>
+            </div> 
+    
+            <div class="underlineButtons">
+                <button class="buttonMenu">ONA's</button>
+            </div> 
+            
+            <div class="underlineButtons">
+                <button class="buttonMenu">Specials</button>
+            </div>
+               
+            <div class="underlineButtons">
+                <button class="buttonMenu">Events</button>
+            </div>
+               
+            <div class="underlineButtons">
+                <button class="buttonMenu">Genres</button>
+            </div>
+    
+        </div>
+
+    
+
+    <div class="content">
+        <h1 id="type">Trending</h1>
+        <div class="trending" id="trending">
+    
+            <!-- 
+            <button class="MoreInfo">
+
+                    <div class="image" id="image">
+
+                            <img src="MV5BMTNjNGU4NTUtYmVjMy00YjRiLTkxMWUtNzZkMDNiYjZhNmViXkEyXkFqcGc@._V1_.jpg" alt="anime" class="animePoster">
+
+                            <p>One piece</p>
+
+                    </div>
+
+            </button>
+            -->
+            
+        </div>
+        
+    </div>
+    <div class="backNext">
+        <button id="previos" class="BackButton">
+        <i class="fa fa-arrow-left" aria-hidden="true"></i><span>Previos Page</span>
+        </button>
+
+        <button id="next" class="NextButton" >
+        <span>Next Page</span><i class="fa fa-arrow-right" aria-hidden="true"></i>
+        </button>
+
+    </div>
+
+    <div class="bcImage" >
+        <div class="displayBackgroundImage">
+            <img src="" class="displayBackgroundImagePhoto" id="displayBackgroundImagePhoto">
+        </div>
+        <button  id="BackButtonbcImage"><i class="fa fa-arrow-left" aria-hidden="true"></i></button>
+        <div class="displayMoreInfo">
+            
+            <div style="width: 200px;">
+                <img  class="animePoster"  id="displayMoreInfoPoster">
+
+            </div>
+
+            <div style="width: 700px;">
+                <h1 id="titleDMI"></h1>
+                <h4 id="synopsesDMI"></h3>
+                    <a href="###" style="color: black;" id="rederectLink">
+                        <button style="border-radius: 15px; border: none;background-color: #32f50b; width: 200px;font-size: 18px;height: 25px;"><i class="fas fa-play "></i> 
+                            Watch Now </button>
+                    </a>
+
+            </div>
+
+            <div style="background-color: rgba(255, 255, 255, .1);display: grid;gap: 10px;width: 150px;padding-top: 20px;">
+                <div  id="alternateTitle">
+    
+                    <p>Titles: </p>
+                    <h5 id="altTitleDMI" style="height: fit-content;"></h5>
+                </div>
+                    <div id="genres">
+                        <p>Genres:</p>             
+                    </div>
+                    <div id="ranking" style="display: flex;">
+                        <p>Ranking: </p>
+                        <p id="rankingsDMI"></p>
+                    </div>
+                    <div id="type" style="display: flex;">
+                            <p>Type:</p>
+                            <p id="typeDMI"></p>
+                    </div>
+            </div>
+    
+        </div>
+    
+
+    </div>
+
+    
+    <div class="footer">
+
+            <div style="display: flex;align-items: center;justify-content: start;height: 50px;">
+    
+                <img src="istockphoto-1196785607-612x612-removebg-preview.png" alt="Panda Logo" style="width: 90px;height: 90px;">
+                <h1 style="color: rgb(68, 235, 68);">Panda Animation</h1>
+            </div>
+   
+    </div>
+    
+
+    
+    <script src="index.js"></script>
+</body>
+</html>

@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+body {
+    height: 100vh; 
+    margin: 0; 
+    background-color: rgb(29, 29, 29);
+    color: white;
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    background: url("bamboo-stems-silhouettes-asian-jungle-600nw-2463654745.webp") no-repeat center center fixed;
+    background-size: cover; 
+}
+
+        .loginPage{
+            background-color: rgb(36, 36, 35);
+            width: 40%;
+            height: 500px;
+            margin: auto;
+            text-align: center;
+            padding-top: 4vh;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            border: 1px solid greenyellow;
+            border-radius: 10px;
+        }
+        .styleInput{
+            width: 300px;
+            border-radius: 20px;
+            height: 20px;
+            border: none;
+        }
+        .styleInput:hover{
+            box-shadow: green 0px 0px 20px 0px;
+        }
+        
+        .styleSubmit{
+            background-color: rgba(240, 248, 255, 0);
+            border: none;
+            color: white;
+            font-size: 25px;
+            width: 120px;
+            height: 40px;
+            border-radius: 20px;
+        }
+        .styleSubmit:hover{
+            background-color: rgb(10, 103, 10);
+            border: 1px solid black;
+        }
+        .styleLabel{
+            font-size: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="loginPage">
+        <h1>Welcome Back</h1><br> <br>
+        <label for="email" class="styleLabel" >EMAIL ADDRESS: </label><br>
+        <input type="text" name="email" id="email" class="styleInput"><br><br>
+        <label for="password" class="styleLabel">PASSWORD: </label><br>
+        <input type="text" name="password" id="password" class="styleInput"><br><br>
+        <div>
+            <input type="checkbox" name="checkbox" id="checkbox" > <span style="font-size: 20px;">Remember Me</span><br><br><br>
+        </div>
+        <a href="index.html"><input type="submit" class="styleSubmit"> </a>
+    </div>
+    <img src="istockphoto-1196785607-612x612-removebg-preview.png" alt="panda" style="position: absolute;top: 0px;left: 20%;width: 300px;">
+</body>
+</html>

@@ -1,0 +1,241 @@
+body{
+    padding: 0px;
+    margin: 0px;
+    background-color: #343a40;
+    color: #fff;
+
+}
+a{
+    text-decoration: none;
+    color: #fff;
+}
+
+p{
+    margin: 0px;
+    font-size: 20px;
+}
+
+
+
+/*navbar*/
+.navBar{
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    border: 3px solid green;
+    border-top: 0px;
+    border-left: 0px;
+    border-right: 0px;
+    align-items: center;
+    z-index: 111;
+    padding: 5px;
+    margin-bottom: 150px;
+}
+#search{
+    background-color: #343a4000;
+    color: #fff;
+    border: none;
+}
+.input{
+    width: 250px;
+    height: 35px;
+    border-radius: 5px;
+    font-size: 15px;
+}
+/*side Menu*/
+.openMenu{
+    color: white;
+    border: none;
+    background-color: rgba(255, 255, 255, 0);
+}
+.sideMenu{
+    position: absolute;
+    left: 0;
+    top: 0px;
+    width: 260px;
+    height: 95vh;
+    display: grid;
+    grid-template-rows: 30px ;
+    gap: 40px;
+    padding-left: 10px;
+    padding-top: 5vh;
+    background-color: rgba(70, 61, 61, 0.629);
+    visibility: hidden;
+}
+.closeMenu{
+    width: 120px;
+    height: 40px;
+    border-radius: 20px;
+    background-color: #5a6268;
+    color: white;
+    font-size: 15px;
+    font-family:'Times New Roman', Times, serif;
+    border: none;
+}
+.underlineButtons{
+    border: 2px rgb(45, 200, 45) solid ;
+    border-top: 0px;
+    border-left: 0px;
+    border-right: 0px;
+
+   
+}
+.buttonMenu{
+    border: none;
+    background-color: rgba(245, 222, 179, 0);
+    font-size: 20px;
+    color: white;
+    width: 100%;
+    font-family:'Times New Roman', Times, serif;
+    text-align: left;
+
+}
+.buttonMenu:hover{
+color: red;
+}
+/*content*/
+.content{
+    width: 1100px;
+    margin: auto;
+    margin-bottom: 50px
+}
+.image{
+    width: 200px;
+    text-align: center;
+}
+.animePoster{
+    width: 200px;
+    height: 287px;
+    border: 5px solid rgb(6, 155, 13);
+    border-top: 0px;
+    border-left: 0px;
+    border-right: 0px;
+}
+.trending{
+    display: grid;
+    grid-template-columns: 200px 200px 200px 200px 200px;
+    gap: 30px;
+    width: 1100px;
+    margin: auto;
+}
+.MoreInfo{
+padding: 0px;
+margin: 0px;
+background-color: #343a4000;
+border: none;
+color: #fff;
+display: flex;
+}
+
+/*display more info*/
+.bcImage {
+    position: relative;
+    width: 80%;
+    overflow: hidden;
+    margin: auto;
+   display: none;
+}
+ 
+.displayBackgroundImage{
+    position: absolute;
+    z-index: -10;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+     filter: grayscale(100%) blur(10px) brightness(50%); 
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    content: "";
+    
+
+}
+.displayBackgroundImagePhoto{
+    width: 100%;
+    height: 250%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    
+}
+#BackButtonbcImage{
+    width: 50px;
+    height: 30px;
+    position: absolute;
+    border: none;
+    background-color: rgba(240, 248, 255, 0.343);
+}
+
+.displayMoreInfo{
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+
+}
+#genres{
+    display: grid;
+    grid-template-columns: 60px 60px ;
+    gap: 5px;
+    border: #fff 1px solid;
+    border-left: 0px;
+    border-right: 0px;
+    padding-top: 10px;
+
+
+}
+#alternateTitle{
+    display: flex;
+}
+
+.buttonGenres{
+    border-radius: 20px;
+    background-color:  #343a4000;
+    color: #fff;
+    border: 1px solid white;
+    font-size: 13px;height: 20px;
+    width: f;
+}
+
+
+
+/*back next*/
+.backNext{
+    display: flex;
+    justify-content: space-between;
+    font-size: 30px;
+    width: 1100px;
+    margin: auto;
+    margin-bottom: 100px;
+}
+.BackButton{
+    border: none;
+    background-color: rgba(255, 255, 255, 0);
+    color: #fff;
+    font-size: 27px;
+    visibility: hidden;
+}
+.NextButton{
+    border: none;
+    background-color: rgba(255, 255, 255, 0);
+    color: #fff;
+    font-size: 27px;
+}
+/*footer*/
+.footer{
+    width: 99%;
+    border: 3px solid green;
+    border-bottom: 0px;
+    border-left: 0px;
+    border-right: 0px;
+    align-items: center;
+    z-index: 111;
+    padding: 5px;
+    margin-top: 200px;
+  
+}
